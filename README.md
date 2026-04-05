@@ -46,6 +46,13 @@ The model is unsupervised, so it does not require labeled attack data. It learns
 - Last 10 anomaly events with timestamps.
 - Console monitoring mode for lightweight terminal operation.
 
+## Tech Stack
+
+- Hardware: NodeMCU ESP8266 (Promiscuous Mode)
+- AI/ML: Scikit-learn (Isolation Forest), NumPy, Pandas
+- Communication: PySerial (Full-duplex Serial Communication)
+- Frontend: Streamlit (Real-time Web Dashboard)
+
 ## Repository Structure
 
 - brain.py: Console runtime for serial + AI detection output.
@@ -108,6 +115,29 @@ The model is unsupervised, so it does not require labeled attack data. It learns
 4) Verify serial port:
 - Ensure Python scripts use the same port as your board.
 - Default in this project is COM3.
+
+## Usage
+
+## How to Run
+
+1) Install dependencies from requirements file:
+
+    pip install -r requirements.txt
+
+2) Flash NodeMCU firmware:
+- Open sniffer.ino in Arduino IDE.
+- Select ESP8266 board + correct COM port.
+- Upload firmware.
+
+3) Start console detection mode:
+
+    python brain.py
+
+4) Start Streamlit dashboard mode:
+
+    python -m streamlit run streamlit_app.py
+
+5) Open local dashboard URL (usually http://localhost:8501).
 
 ## Usage
 
