@@ -14,7 +14,9 @@ This project captures live Wi-Fi packet telemetry from a NodeMCU running in prom
 
 ### Video Demo
 
-<video src="d8c2ad97-4a4a-4e81-ab5c-8aaf683f47b1.mp4" controls width="100%"></video>
+GitHub README pages do not reliably render embedded `<video>` tags.
+
+[Watch the demo video (MP4)](d8c2ad97-4a4a-4e81-ab5c-8aaf683f47b1.mp4)
 
 ### CLI Demo Results
 
