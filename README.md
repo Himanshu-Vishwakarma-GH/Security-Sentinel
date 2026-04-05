@@ -22,7 +22,6 @@ This project captures live Wi-Fi packet telemetry from a NodeMCU running in prom
 
 ![CLI Demo Result 1](cli%20sam.jpeg)
 
-![CLI Demo Result 2](cli%20sample.jpeg)
 
 ## Project Overview
 
